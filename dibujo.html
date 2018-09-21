@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<meta charset='utf-8'>
+<link rel="stylesheet" type="text/css" href="style.css">
+
+<body>
+    <div id="body" class="center">
+            <div id="grafico1" class="center"></div>
+            <div id="grafico2" class="center"></div>
+    </div>   
+</body>
+
+<script src='d3v4.js'></script>
+<script src='data1.js'></script>
+<script src='data2.js'></script>
+<script src='dataEmpleadosPublicos.js'></script>
+<script src='mujeresParlamento.js'></script>
+<script src='_script.js'></script>
+<script>
+var divGrafica1='#grafico1';
+var divGrafica2='#grafico2';
+grafica(divGrafica1, dataMujeres);
+//grafica(divGrafica1, data1);
+//grafica(divGrafica2, data2);
+</script>

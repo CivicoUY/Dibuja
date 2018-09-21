@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<meta charset='utf-8'>
+<link rel="stylesheet" type="text/css" href="style.css">
+
+<body>
+    <div id="body" class="center">
+            <h1 class="center">Mujeres en el parlamento</h1>
+            <h4><p class="center"> ¿Como ha evolucionado la presencia de mujeres en el parlamento uruguayo?</p>
+            <p class="center">Completa la gráfica continuando la linea</p></h4>
+            <div id="grafico1" class="center"></div>
+            <div ></div>
+            <p class="center fuente">Fuente <a href="https://oig.cepal.org/es/paises/uruguay" target="_blank">CEPAL</a> </p>        
+    </div>   
+</body>
+
+<script src='d3v4.js'></script>
+<script src='dataEmpleadosPublicos.js'></script>
+<script src='_script.js'></script>
+<script>
+var divGrafica1='#grafico1';
+var divGrafica2='#grafico2';
+grafica(divGrafica1, dataPublicos);
+grafica(divGrafica2, data2);
+
+</script>

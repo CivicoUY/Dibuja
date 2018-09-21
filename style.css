@@ -1,0 +1,43 @@
+svg{
+	overflow: visible;
+}
+
+body{
+  font-family: monospace;
+  margin: 0px;
+  overflow: hidden;
+}
+
+.axis{
+  opacity: .5;
+}
+
+.line{
+  fill: none;
+  stroke: black;
+  stroke-width: 3;
+}
+
+.area{
+  fill: #eee;
+}
+
+.your-line{
+  stroke: #f0f;
+  stroke-width: 3;
+  stroke-dasharray: 5 5;
+}
+
+.center {
+  margin: auto;
+  width: 80%;
+  padding: 10px;
+  text-align: center;
+}
+.fuente {
+  font-size: 16px;
+}
+
+h4 {
+  font-size: 18px
+}
